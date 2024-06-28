@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="window" parent="GtkApplicationWindow">
+    <property name="width-request">100</property>
+    <property name="title" translatable="yes">thyme</property>
+    <child>
+      <object class="GtkLabel" id="timer_label">
+      </object>
+    </child>
+  </template>
+</interface>
